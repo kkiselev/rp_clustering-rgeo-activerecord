@@ -31,8 +31,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency('activerecord', '~> 3.0')
   gem.add_dependency('arel', '~> 3.0.2')
   gem.add_dependency('rgeo', '~> 0.3.20')
-  gem.add_dependency('rgeo-activerecord', '~> 0.4.6')
+  gem.add_dependency('rgeo-activerecord', '~> 0.5.0')
 
   # This Gem is specific to postgis
-  gem.add_dependency('activerecord-postgis-adapter', '~> 0.5.1')
+  gem.add_dependency('activerecord-postgis-adapter', '~> 0.6.4')
 end
